@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .introduction{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-top: 60px;
+        color: #fff;
+    }
+
+    body{
+        background: url(BG.jpg);
+    }
+    .head{
+        margin-bottom: 60px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: #fff;
+    }
+    .Profile{
+        border-radius:10px;
+        width: 250px;
+    }
+
+    .nav-links {
+        object-position: center;
+        font-family: 'Arial Rounded MT';
+        background-color: #D8BFD8;
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-links:hover {
+        background-color: #DDA0DD;
+    }
+</style>
+
+<div class="head">
+    <h1>Welcome</h1>
+    <img src="~/MyProfile.jpg" alt="me" class="Profile" />
+    <h4>Bachelor of Science <br>In information Technology(BSIT)</h4>
+</div>
+
+<div class="introduction">
+    <h2> Hi! I'm<br> Shanna Mae A. Perdon</h2>
+    <p>Im 21 yrs old, 3rd year college student at the Lyceum of Alabang.
+        <br> I am taking a bachelor of science in information technology,
+        <br> my section is BSIT32E1. I am in my second semester now</p>
+    <button class="nav-links"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="School">My Schedule</a></button>
+</div>
+

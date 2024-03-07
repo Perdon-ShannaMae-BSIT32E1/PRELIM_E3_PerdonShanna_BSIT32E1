@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "My Schedule";
+}
+<style>
+    .Text {
+        color: #000000;
+    }
+
+    h1 {
+        font-family: 'Comic Sans MS';
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    body {
+        background-color: #DDA0DD;
+    }
+
+    table {
+        font-family: 'Comic Sans MS';
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 70px;
+    }
+
+    td {
+        border: 3px solid #000000;
+        padding: 20px;
+        text-align: center;
+    }
+
+    th {
+        border: 3px solid #000000;
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+<div class="Text">
+    <h1>@ViewData["Title"]</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Section</th>
+            <th rowspan="2">Code</th>
+            <th rowspan="2">Course Title</th>
+            <th rowspan="2">Units</th>
+            <th colspan="2">Asynchronous</th>
+            <th colspan="2">Face to Face Time</th>
+            <th rowspan="2">Prof</th>
+        </tr>
+        <tr>
+            <td>Day</td>
+            <td>Time</td>
+            <td>Day</td>
+            <td>Time</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>SIA323</td>
+            <td>Systems Integration &Aacute; Architecture 1</td>
+            <td>3</td>
+            <td>Saturday</td>
+            <td>10:00 - 12:00pm</td>
+            <td>Mon/Tue</td>
+            <td>06:30pm - 08:00pm</td>
+            <td>Prof. BANAG</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>FIL103</td>
+            <td>Panitikan</td>
+            <td>3</td>
+            <td>Thursday</td>
+            <td>10:00 - 12:00pm</td>
+            <td> </td>
+            <td> </td>
+            <td>Prof ZAIDE</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>CAP323</td>
+            <td>Capstone Project and Research 1</td>
+            <td>3</td>
+            <td>Thursday</td>
+            <td>07:00 - 09:00pm</td>
+            <td>Mon/Tue</td>
+            <td>5:00 - 06:30pm</td>
+            <td>Prof R ELLANA</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>MS313</td>
+            <td>Quantitative Methods (Modelling & Simulation)</td>
+            <td>3</td>
+            <td>Wednesday</td>
+            <td>07:00 - 09:00pm</td>
+            <td>Mon/Tue</td>
+            <td>08:00 - 09:30pm</td>
+            <td>Prof DELADIA</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>ELEC323</td>
+            <td>IT Elective 3 (FULL STACK)</td>
+            <td>3</td>
+            <td>Thursday</td>
+            <td>01:00pm - 03:00pm</td>
+            <td>Saturday</td>
+            <td>07:00 - 10:00am</td>
+            <td>Prof ALAMO</td>
+        </tr>
+        <tr>
+            <td>BSIT32E1</td>
+            <td>IAS323</td>
+            <td>Information Assurance and Security 1</td>
+            <td>3</td>
+            <td>Thursday</td>
+            <td>12:00 - 02:00pm</td>
+            <td>Tuesday</td>
+            <td>04:00 - 05:00pm</td>
+            <td>Prof MALIG-ON</td>
+        </tr>
+    </table>
+</div>
